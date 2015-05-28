@@ -7,6 +7,10 @@ form {
   background-color: black;
   color: #fff;
   padding: 10px 25px;
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+  top: 0px;
 }
 
 h1 {
@@ -15,4 +19,61 @@ h1 {
 
 a {
   color: #c00;
+}
+
+#results {
+  list-style: none;
+  display: block;
+  margin: 100px auto;
+  widows: 24%;
+  text-align: center;
+  z-index: 99999;
+}
+
+/*****************
+SEARCH BY ALBUM/ARTIST - RESULTS
+******************/
+
+.main_cover {
+  height: 480px;
+  width: 430px;
+}
+
+.result-display {
+  width: 40%;
+  display: inline-block;
+  margin: 20px;
+}
+
+h3, h4 {
+  border: 2px solid black;
+}
+
+/*****************
+SEARCH BY TRACK - RESULTS
+******************/
+
+.album_cover {
+  height: 350px;
+  width: 300px;
+}
+
+audio {
+  display: block;
+}
+
+li {
+  padding: 5px 5px;
+}
+
+.track_display {
+  margin: 10px;
+  display: inline-block;
+}
+
+h3 {
+  display: block;
+  width: 300px;
+  overflow: hidden;
+  font-size: 100%;
 }
